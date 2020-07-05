@@ -19,7 +19,8 @@
     "author": "Shirinov Rustam <d9rs.dev@gmail.com> (https://github.com/d9rs)",
     "license": "ISC",
     "devDependencies": {
-        "eslint": "^7.4.0"
+        "eslint": "^7.4.0",
+        "prettier": "^2.0.5"
     },
     "dependencies": {}
 }
