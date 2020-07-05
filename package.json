@@ -1,0 +1,25 @@
+{
+    "name": "writable-streams",
+    "version": "1.0.0",
+    "description": "Own implementation of fs.WriteStream and stream.Writable",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier --single-quote --tab-width 4 --print-width 120 --write \"**/*.js\" \"./*.json\""
+    },
+    "keywords": [
+        "writable",
+        "streams",
+        "stream",
+        "fs",
+        "fs.WriteStream",
+        "write stream",
+        "file system"
+    ],
+    "author": "Shirinov Rustam <d9rs.dev@gmail.com> (https://github.com/d9rs)",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.4.0"
+    },
+    "dependencies": {}
+}
