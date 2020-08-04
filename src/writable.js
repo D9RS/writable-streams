@@ -97,7 +97,9 @@ class Writable extends EventEmitter {
         this._destroy(error, (err) => {
             if (callback) {
                 callback(err);
-            } else if (err) {
+            }
+            
+            if (err) {
                 this.emit('error', err);
             }
 
