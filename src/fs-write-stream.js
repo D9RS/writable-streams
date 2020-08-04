@@ -130,9 +130,7 @@ class WritableFileStream extends Writable {
     }
 
     _destroy(err, callback) {
-        if (!err) {
-            this[closeFile](err, callback);
-        } else if (this.autoClose) {
+        if (!err || this.autoClose) {
             this[closeFile](err, callback);
         }
     }
