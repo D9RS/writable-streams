@@ -74,7 +74,7 @@ class WritableFileStream extends Writable {
 
     [closeFile](err, callback) {
         if (this.fd === null) {
-            if (callback) callback(err);
+            if (callback) process.nextTick(callback, err);
             return;
         }
 
